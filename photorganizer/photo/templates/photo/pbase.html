@@ -1,0 +1,25 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'photo/css/style.css' %}" />
+    <title>{% block title %}Photo page{% endblock %}</title>
+</head>
+<body>
+
+<div id="menu">
+USER={{ user.username }}<br>
+            {% block nav-global %}
+
+                <!-- MENU -->
+                <h3><a href="{% url 'photo:main' %}">PhotoApp</a></h3>
+                <h4><a href="{% url 'photo:search' %}">Search</a></h4>
+                {% if user.is_staff %}
+                {% endif %}
+
+            {% endblock %}
+        </div>
+
+          {% block content %}{% endblock %}
+</body>
+</html>

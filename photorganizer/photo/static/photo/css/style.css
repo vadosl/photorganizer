@@ -1,0 +1,45 @@
+* {
+    color: #555;
+    font-size: 0.95em;
+        }
+#update { width: 300px; text-align: right; }
+#container { margin: auto; width: 800px; border: 0px solid; }
+#menu a {
+    text-decoration: none;
+    background: #eee;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-right: 2px solid #fff;
+    padding-right: 3px;
+    padding-left: 3px;
+    color: #777;
+    font-size: 0.9em;
+}
+
+a:hover {
+    background: #eeebeb;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    color: #555;
+}
+
+.main { margin-left: 25px; margin-top: 30px; }
+.step-links a { font-size: 0.89em; }
+.title {
+    font-size: 1.4em; margin-top: 20px; border-bottom: 1px solid #ccc;
+    padding-left: 4px;
+}
+.messages { margin-left: 20px; }
+.pagination { margin-top: 20px; margin-left: -20px; }
+.right { text-align: right; float: right; margin: 4px; }
+.center { text-align: center; margin: 4px; }
+.form { border: 0px solid #ddd; margin: 3px; padding: 3px; top-margin: 6px; }
+
+img { margin: 10px; padding: 5px; border: 1px solid #ccc; margin-bottom: 2px; }
+td { text-align: right; }
+p { font-size: 1.1em; }
+h3 { margin-right: 30px; display: inline; }
+
+
+
+
